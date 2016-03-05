@@ -174,7 +174,7 @@ class mainGUI:
                 directory += item + os.sep
             out = os.popen("cd {}; lc3test {} {}".format(directory, actFile, runFile)).read()
             resultsWindow = Tk()
-            resultsWindow.title = "Results"
+            resultsWindow.title("Results")
             scroll = Scrollbar(resultsWindow)
             resultsText = Text(resultsWindow, yscrollcommand = scroll.set)
             resultsText.insert(INSERT, out)
