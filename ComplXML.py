@@ -101,7 +101,7 @@ class mainGUI:
         self.file_opt = options = {}
         options['filetypes'] = [("Complx XML Test (.xml)",".xml")]
         if len(self.testCaseList) > 0:
-            theFile = tkiner.filedialog.asksaveasfilename(**self.file_opt)
+            theFile = tkinter.filedialog.asksaveasfilename(**self.file_opt)
         else:
             tkinter.messagebox.showerror(title="Error", message="Please make at least one test case")
             return
