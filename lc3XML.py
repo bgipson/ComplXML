@@ -70,7 +70,7 @@ class mainGUI:
 
         menubar = Menu(rootWin)
         rootWin.config(menu=menubar)
-        menubar.add_command(label = "Click To Make XML File", command = self.makeXML)
+        menubar.add_command(label = "Click To Save XML File", command = self.makeXML)
         menubar.add_command(label = "Help and Documentation", command = self.helpWindow)
         menubar.add_command(label = "Run Test Case", command = self.runTest)
         menubar.add_command(label = "Reset", command = self.reset)
