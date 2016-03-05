@@ -3,12 +3,13 @@ from tkinter import *
 import tkinter.messagebox
 import tkinter.filedialog
 import traceback
-#LC-3 Test XML Maker
+#ComplXML - The LC-3 Test XML Maker
 #Created by Brandon Gipson
 import os
 class mainGUI:
     def __init__(self,rootWin):
         self.rootWin = rootWin
+        rootWin.title("ComplXML")
         self.testCaseList = []
         self.testCasePointer = None
         self.expanded = False
