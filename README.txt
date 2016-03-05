@@ -20,7 +20,7 @@ Pre-Reqs:
 - Click on the test case you want to switch to using the side bar.
 
 5.How to publish your XML file:
-- Click on the "Click to Make XML File" button. 
+- Click on the "Click to Save XML File" button. 
 - This will open a file save dialog box. 
 - Give a name to your XML file and save it in the same directory as your ASM file.
 
